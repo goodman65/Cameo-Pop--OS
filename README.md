@@ -1,2 +1,1 @@
-# cameo
-General repository for Cameo GTK-variants
+Cameo-Pop!-OS from paullinuxthemer/cameo with minor fixes in gnome-shell.css
