@@ -22,7 +22,7 @@
 
 
 stage {
-  font-family: Fira Sans Semibold, PingFang SC;
+  font-family: Fira Sans, PingFang SC;
   color: #e1e1e1; }
 
 /*((((((((( Common Stylings))))))))))))) */
@@ -429,14 +429,14 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
   padding-left: 6px;/*1.75em;*/ }
  .popup-sub-menu .popup-menu-item.selected,
 .popup-menu-item:checked {
-
+  color: #ffffff;
   background-color: rgba(32,32,32,0.8);/*#3a3a3a;-------------------->Heading of submenu checked*/
   box-shadow: none;
   border-radius: 4.66px 4.66px 0 0; }
   
  .popup-sub-menu .popup-menu-item.selected {
 
-  background-color: rgba(15,15,15,0.8);/*#3a3a3a;-------------------->Heading of submenu checked*/
+  background-color: #2f889e;/*#3a3a3a;-------------------->Heading of submenu checked*/
   box-shadow: none;
   border-radius: 4.66px; } 
   
@@ -1760,7 +1760,7 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
   width: 320px;
   padding: 7px 9px;
   border-radius: 8px;
-  border-width: 3px;
+  /* border-width: 3px; */
   color: rgba(238, 238, 238, 0.7);
   background-color:rgba(53,53,53,0.9);
   border-color: transparent; }
@@ -1772,6 +1772,7 @@ box-shadow: 0 3px 12px 1px rgba(0, 0, 0, 0.5);
   
   .search-entry:focus {
     padding: 6px 8px;
+    border-width: 2px;
     border-style: solid;
     border-color: #2f889e;
     color: #ffffff;
