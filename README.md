@@ -1,13 +1,11 @@
-Cameo-Pop!-OS from paullinuxthemer/cameo 
+modified theme from the original work of paullinuxthemer
 
-The default fonts are changed to `Fira Sans` and `PingFang SC` in both GTK3 themes and Shell themes, which overrides the settings in `Gnome Tweak Tool`. That gives better support for simplified Chinese without changing the default font in `Pop!-OS`.
+test specs: 
+* Pop!_OS 20.04
+* Gnome 3.36
+* Font Scaling Factor 1.25
+* Screen Resolution 1920*1080
 
-And there are minor fixes in gnome-shell.css for symbols:
+fonts set to `Fira Sans` and `PingFang SC` in order to support Simplified Chinese characters. this may affect the interface font of some software including `Firefox` installed via `apt`. the `PingFang` fonts can be found in macOS. if you have trouble finding those, I also recommend `Noto Sans SC`.
 
-before:
-
-![](before.png)
-
-after:
-
-![](after.png)
+some minor changes in `gnome-shell.css` to make more sense in my opinion.
